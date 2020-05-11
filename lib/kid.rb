@@ -5,5 +5,8 @@ class Kid
   
   attr_accessor :name 
   @name = name 
+  
+  def initialize(name)
+    @name = name 
   end 
 end 
